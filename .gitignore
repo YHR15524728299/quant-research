@@ -1,0 +1,18 @@
+# 防止误装入其他代码/缓存
+*.pyc
+__pycache__/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# 数据/爬虫缓存
+.cache/
+data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# 临时抓取
+/tmp/
